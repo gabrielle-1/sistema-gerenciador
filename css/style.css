@@ -1,0 +1,78 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+#estudante,
+#professor,
+#cadastrar,
+#entrou{
+    background-color: #14213D;
+    color: white;
+    width: 360px; 
+    margin-left: 116px;    
+}
+#entrou{
+    width: 340px; 
+    margin-left: 158px; 
+}
+#cadastrou{
+    background-color: #14213D;
+    color: white;
+    width: 360px; 
+    width: 500px; 
+
+}
+
+#login
+{
+width: 100vw;
+height: 100vh;
+flex-direction: row;
+justify-content: center;
+align-items: center
+}
+
+.form{
+    width: 700px; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.btn-botao {
+    color: #14213D;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+  }
+  
+  .btn-botao:hover {
+    color: #14213D;
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+  }
+  
+  .btn-botao:focus, .btn-botao.focus {
+    box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
+  }
+  
+  .btn-botao.disabled, .btn-botao:disabled {
+    color: #14213D;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+  }
+  
+  .btn-botao:not(:disabled):not(.disabled):active, .btn-botao:not(:disabled):not(.disabled).active,
+  .show > .btn-botao.dropdown-toggle {
+    color: #14213D;
+    background-color: #dae0e5;
+    border-color: #d3d9df;
+  }
+  
+  .btn-botao:not(:disabled):not(.disabled):active:focus, .btn-botao:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-botao.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
+  }
+  
